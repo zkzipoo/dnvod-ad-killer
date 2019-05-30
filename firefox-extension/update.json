@@ -3,6 +3,9 @@
     "{d099624c-b79c-4eba-8839-2933e9c16e58}": {
       "updates": [
         {
+          "update_link": "https://raw.githubusercontent.com/zkzipoo/dnvod-ad-killer/master/firefox-extension/dist/ifun_ad_killer-2.3-an+fx.xpi",
+          "version": "2.3"
+        },{
           "update_link": "https://raw.githubusercontent.com/GreatYYX/dnvod-ad-killer/master/firefox-extension/dist/dnvod_ad_killer-2.2-an+fx.xpi",
           "version": "2.2"
         },

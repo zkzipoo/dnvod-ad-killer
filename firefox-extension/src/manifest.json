@@ -1,9 +1,9 @@
 {
-  "description": "Dnvod Ad Killer, Dnvod Ad Remover, 多瑙去广告, 多瑙净化",
+  "description": "ifun Ad Killer, ifun Ad Remover, 多瑙去广告, 多瑙净化",
   "manifest_version": 2,
-  "name": "dnvod-ad-killer",
-  "version": "2.2",
-  "homepage_url": "https://github.com/GreatYYX/dnvod-ad-killer",
+  "name": "ifun-ad-killer",
+  "version": "2.3",
+  "homepage_url": "https://github.com/zkzipoo/dnvod-ad-killer",
   "icons": {
     "48": "icon.png",
     "96": "icon.png"
@@ -11,12 +11,12 @@
   "author": "GreatYYX",
 
   "permissions": [
-    "webRequest", "webRequestBlocking", "*://*.dnvod.tv/*"
+    "webRequest", "webRequestBlocking", "*://*.ifun.tv/*"
   ],
 
   "content_scripts": [
     {
-      "matches": ["*://*.dnvod.tv/*"],
+      "matches": ["*://*.ifun.tv/*"],
       "js": ["content_script.js"]
     }
   ],
@@ -27,15 +27,15 @@
 
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Dnvod Ad Killer",
+    "default_title": "ifun Ad Killer",
     "default_popup": "menu.html"
   },
 
   "applications": {
     "gecko": {
-      "id": "{d099624c-b79c-4eba-8839-2933e9c16e58}",
+      "id": "{0c47b7d8-82ef-11e9-bc42-526af7764f64}",
       "strict_min_version": "57.0a1",
-      "update_url": "https://raw.githubusercontent.com/GreatYYX/dnvod-ad-killer/master/firefox-extension/update.json"
+      "update_url": "https://raw.githubusercontent.com/zkzipoo/dnvod-ad-killer/master/firefox-extension/update.json"
     }
   }
 }

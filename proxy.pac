@@ -11,11 +11,11 @@ var FindProxyForURL = function(init, profiles) {
 }("+Auto Switch", {
     "+Auto Switch": function(url, host, scheme) {
         "use strict";
-        if (/(?:^|\.)dnvod\.tv$/.test(host)) return "+dnvod";
+        if (/(?:^|\.)ifun\.tv$/.test(host)) return "+ifun";
         return "+__ruleListOf_Auto Switch";
     },
     "+__ruleListOf_Auto Switch": "DIRECT",
-    "+dnvod": function(url, host, scheme) {
+    "+ifun": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
         return "PROXY ::1:8899";

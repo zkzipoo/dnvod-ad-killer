@@ -18,7 +18,7 @@ function remove_ad_images() {
 	links = document.getElementsByTagName("a");
 	for (var i = 0; i < links.length; i++) {
 		url = new URL(links[i].href);
-		if (url.hostname.startsWith("ppt.dnvod.tv")) {
+		if (url.hostname.startsWith("ppt.ifun.tv")) {
 			console.log("found ad link, removing...");
 			links[i].parentNode.removeChild(links[i]);
 		}
